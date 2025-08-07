@@ -1,9 +1,9 @@
-from idlelib.configdialog import FontPage
+
 
 import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
-from conts import menu_options, c_white
+import conts
 
 
 class Menu:
@@ -13,6 +13,7 @@ class Menu:
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
+
         pygame.mixer.music.load("./assets/sounds/Menu.mp3")
         pygame.mixer.music.play(-1)
         while True:
@@ -20,8 +21,15 @@ class Menu:
             self.menu_text(text_size=80,text='Jump', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 70))
             self.menu_text(text_size=80,text='Test', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 120))
 
-            for i in range(len(menu_options)):
-                self.menu_text(60, menu_options[i] , c_white, text_center_pos=(self.rect.centerx, 200 + 55 * i))
+            for i in range(len(conts.menu_options)):
+
+                 self.menu_text(60, conts.menu_options[i], conts.c_yellow, text_center_pos=(self.rect.centerx, 200 + 55 * i))
+
+
+
+
+
+
 
 
             pygame.display.flip()

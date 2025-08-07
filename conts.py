@@ -1,5 +1,6 @@
 collor_orange = (255,102,102)
 c_white = (255,255,255)
+c_yellow = (255,242,0)
 
 #M
 

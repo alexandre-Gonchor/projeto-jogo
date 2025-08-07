@@ -9,19 +9,19 @@ from conts import menu_options, c_white
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBg.png')
+        self.surf = pygame.image.load('./assets/7 Levels/Preview/1lvl.jpg')
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
-        pygame.mixer.music.load("./asset/Menu.mp3")
+        pygame.mixer.music.load("./assets/sounds/Menu.mp3")
         pygame.mixer.music.play(-1)
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(text_size=50,text='Montanha', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 70))
-            self.menu_text(text_size=50,text='tiro', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 120))
+            self.menu_text(text_size=80,text='Jump', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 70))
+            self.menu_text(text_size=80,text='Test', text_color=(255,128,0), text_center_pos=(self.rect.centerx, 120))
 
             for i in range(len(menu_options)):
-                self.menu_text(20, menu_options[i] , c_white, text_center_pos=(self.rect.centerx, 200 + 25 * i))
+                self.menu_text(60, menu_options[i] , c_white, text_center_pos=(self.rect.centerx, 200 + 55 * i))
 
 
             pygame.display.flip()

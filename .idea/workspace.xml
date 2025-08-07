@@ -7,7 +7,6 @@
     <list default="true" id="ec1555c9-523d-475c-9f9c-ca3edc8f98c3" name="Changes" comment="altered sprites of project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conts.py" beforeDir="false" afterPath="$PROJECT_DIR$/conts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.asdfg" />
         <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.asdfg" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.asdfg" />
       </list>
     </recent_temporary>
   </component>

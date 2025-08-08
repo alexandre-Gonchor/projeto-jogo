@@ -1,7 +1,10 @@
 import pygame
 
 from Menu import Menu
-from conts import win_width, win_height
+from conts import win_width, win_height, menu_options
+from level import Level
+
+
 
 
 class Game:
@@ -14,8 +17,18 @@ class Game:
         pygame.mixer.music.play(-1)
         while True:
             menu = Menu(self.window)
-            menu.run()
-            pass
+            menu_return = menu.run()
+
+            if menu_return == menu_options [0]:
+                level = Level(self.window, 'level 1', menu_return)
+            elif menu_return == menu_options [4]:
+                pygame.quit()  # Close Window
+                quit()  # end pygame
+            else:
+                pass
+
+
+
 
 
 

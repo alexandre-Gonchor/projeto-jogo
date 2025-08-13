@@ -1,12 +1,10 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-from Entity import Entity
-
+# background.py
+import pygame
+from entity import Entity
 
 class Background(Entity):
-    def __init__(self):
-        pass
+    def __init__(self, name: str, position=(0,0)):
+        super().__init__(name, position)
 
-    def move(self, ):
-        pass
+    def move(self):
+        pass  # O fundo não se move por enquanto

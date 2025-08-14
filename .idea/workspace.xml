@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1555c9-523d-475c-9f9c-ca3edc8f98c3" name="Changes" comment="menu changesv2">
-      <change afterPath="$PROJECT_DIR$/gem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform.py" afterDir="false" />
+    <list default="true" id="ec1555c9-523d-475c-9f9c-ca3edc8f98c3" name="Changes" comment="level design iniciated">
+      <change afterPath="$PROJECT_DIR$/checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spike.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemyShot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/entityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerShot.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
